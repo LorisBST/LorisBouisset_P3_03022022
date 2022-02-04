@@ -1,0 +1,79 @@
+:root {
+    --violet: #9356DC ;
+    --rose: #FF79DA;
+    --vert: #99E2D0;
+    }
+
+Body {
+    font-family: roboto;
+    margin: 0px;
+}
+
+/* PARTIE LOGO ET HEADER */
+.header_logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    text-align: center;
+}    
+
+/* LOCALISATION UTILISATEUR */
+.User_Localisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 6px 0px 6px 0px;
+    background-color: #ebebeb;
+    box-shadow: inset 0px 3px 5px rgb(0 0 0 / 19%);
+}
+
+.User_Localisation h2 {
+    font-size: 20px;
+}
+
+.User_Localisation .fa, .fas {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* TITRE PRINCIPAL */
+.Main_Title {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.Main_Title h1 {
+    font-size: 22px;   
+    margin-top: 20px;
+}
+
+.Main_Title h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: dimgrey;
+    margin-top: 5px;
+}
+
+.bouton_navigation {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;  
+}
+
+.bouton_navigation button {
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    width: 16rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(165deg,#FF79DA,#9356DC);
+}
