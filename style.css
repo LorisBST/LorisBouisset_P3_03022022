@@ -67,8 +67,8 @@ Body {
     justify-content: center;  
 }
 
-.bouton_navigation :hover {
-opacity: 85%;   
+.bouton_navigation:hover {
+opacity: 75%;   
 }
 
 .bouton_navigation button {
@@ -82,8 +82,9 @@ opacity: 85%;
     background-image: linear-gradient(165deg,#FF79DA,#9356DC);
 }
 
-.fonctionnement {
+.block_fonctionnement {
     text-align: center;
+    margin-top: 35px
 }
 
 .regle { 
@@ -97,13 +98,12 @@ opacity: 85%;
         font-size: 17px;
         width: 20%;
         align-items: center;
-        flex-direction: row;
         gap: 25px;
         font-weight: bolder;
     }
 
 .regle:hover {
- background-color: #e4b7ea;
+ background-color: #f5edff;
 }
 
 .regle:hover .icone_regle {
@@ -111,12 +111,12 @@ opacity: 85%;
 }
 
 .regle .numero {
-        padding: 7px 15px 7px 15px;
+        padding: 3px 9px;
         border-radius: 50px;
         color: white;
         background-color: #9356dc;
         font-weight: normal;
-        margin-left: -18px;
+        margin-left: -10px;
         margin-top: -5px;
         font-size: 20px;
 }
@@ -127,3 +127,44 @@ opacity: 85%;
 }
 
 
+.regle_parent{
+    display: flex;
+    margin-top: 50px;
+    padding: 0px 130px 0px 130px;
+    margin-bottom: 20px;
+}
+
+.Block-titre {
+    text-align: center;
+    padding: 1px 0px 10px 0Px;
+}
+
+.Block-restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    width: 61%;
+    margin: auto;
+    gap: 40px;
+}
+
+.fiche-restaurant {
+    box-shadow: 0 0 16px #0000002e;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.image-restaurant {
+    border-radius: 20px 20px 0px 0px;
+    width: 560px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.description-restaurant {
+    margin-left: 20px;
+    line-height: 8px;
+}
+
+.wrapper-restaurants {
+    background-color: #f6f6f6;
+}
