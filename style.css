@@ -88,19 +88,23 @@ opacity: 75%;
 }
 
 .regle { 
-        display: flex;
-        padding: 15px 0px 15px 0px;
-        box-shadow: 3px 3px 10px rgb(0 0 0 / 19%);
-        border-radius: 20px;
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 17px;
-        width: 20%;
-        align-items: center;
-        gap: 25px;
-        font-weight: bolder;
-    }
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 19%);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 22px;
+    align-items: center;
+    gap: 25px;
+    background-color: #f6f6f6;
+    font-weight: bolder;
+    width: 20rem;
+}
+
+.regle .fas {
+    font-size:22px
+}
 
 .regle:hover {
  background-color: #f5edff;
@@ -129,21 +133,26 @@ opacity: 75%;
 
 .regle_parent{
     display: flex;
+    justify-content: center;
     margin-top: 50px;
-    padding: 0px 130px 0px 130px;
     margin-bottom: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
+
 .Block-titre {
-    text-align: center;
-    padding: 1px 0px 10px 0Px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
 }
+
 
 .Block-restaurants {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 61%;
-    margin: auto;
     gap: 40px;
 }
 
@@ -152,6 +161,20 @@ opacity: 75%;
     border-radius: 20px;
     height: 340px;
 }
+
+.bouton-nouveau button {
+    margin: -15rem 1rem 0rem 0rem;
+    border: none;
+    float: right;
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 6px 14px;
+    background: #99e2d0;
+    color: #008766;
+}
+
 
 .image-restaurant {
     border-radius: 20px 20px 0px 0px;
@@ -239,3 +262,5 @@ footer {
     font-family: 'Shrikhand';
     font-weight: lighter;
 }
+
+
