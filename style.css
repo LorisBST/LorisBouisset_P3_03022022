@@ -61,6 +61,7 @@ Body {
     margin-top: 5px;
 }
 
+/* BOUTON DEGRADÉ */
 .bouton_navigation {
     margin-top: 15px;
     display: flex;
@@ -82,6 +83,7 @@ opacity: 75%;
     background-image: linear-gradient(165deg,#FF79DA,#9356DC);
 }
 
+/* FONCTIONNEMENT 3 ETAPES */
 .block_fonctionnement {
     text-align: center;
     margin-top: 35px
@@ -120,7 +122,7 @@ opacity: 75%;
         color: white;
         background-color: #9356dc;
         font-weight: normal;
-        margin-left: -10px;
+        margin-left: -25px;
         margin-top: -5px;
         font-size: 20px;
 }
@@ -142,6 +144,7 @@ opacity: 75%;
 }
 
 
+/* BLOCK RESTAURANTS */
 .Block-titre {
     display: flex;
     justify-content: center;
@@ -174,7 +177,6 @@ opacity: 75%;
     background: #99e2d0;
     color: #008766;
 }
-
 
 .image-restaurant {
     border-radius: 20px 20px 0px 0px;
@@ -212,7 +214,6 @@ color: white;
 -webkit-text-stroke: 2px black;
 }
 
-
 .coeur .fas:hover {
     font-size: 28px;
     background: linear-gradient(165deg,#9356DC,#FF79DA);
@@ -225,6 +226,7 @@ color: white;
 }
 
 
+/* FOOTER ACCUEIL */
 .footer-restaurant {
 display: flex;
 align-items: center;
@@ -264,3 +266,26 @@ footer {
 }
 
 
+/* PARTIE RESPONSIVE MOBILE */
+@media (max-width: 600px) {
+
+.image-restaurant {
+width: 22rem;
+height: 12rem;
+display: block;
+}
+
+.fiche-restaurant {
+    height: auto;
+}
+
+.bouton-nouveau button {
+    margin: -11rem 1rem auto auto;
+}
+
+.Main_Title {
+    margin: 0.5rem;
+}
+
+
+}
