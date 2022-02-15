@@ -1,0 +1,99 @@
+:root {
+    --violet: #9356DC ;
+    --rose: #FF79DA;
+    --vert: #99E2D0;
+    }
+
+Body {
+    font-family: roboto;
+    margin: 0px;
+}
+
+/* PARTIE LOGO ET HEADER */
+.header_logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    text-align: center;
+}    
+
+.image-restaurant {
+    width: 120rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+
+.titre-restaurant {
+    font-family: 'Shrikhand';
+}
+
+.Wrapper-plats {
+    background-color: #f6f6f6;
+    border-radius: 5rem 5rem 0rem 0rem;
+    position: relative;
+    margin-top: -11rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER PALETTE DU GOUT */
+.footer-restaurant {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -15px;
+    }
+    
+    .footer-partenaire {
+        align-items: center;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .footer-wrapper {
+        color: white;
+        padding: 1px 0px 20px 20px;
+    }
+    
+    footer {
+        background-color: #353535;
+    }
+    
+    .footer-text-bottom {    
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-text-bottom p {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .logo-footer h2 {
+        font-family: 'Shrikhand';
+        font-weight: lighter;
+    }
