@@ -29,34 +29,38 @@ Body {
 }
 
 
-.titre-restaurant {
+body h1 {
     font-family: 'Shrikhand';
+    text-align: center;
 }
 
-.Wrapper-plats {
-    background-color: #f6f6f6;
-    border-radius: 5rem 5rem 0rem 0rem;
-    position: relative;
-    margin-top: -11rem;
+
+section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+
+
+
+.bouton_commander {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+.bouton_commander button {
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    width: 11rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(180deg,#FF79DA,#9356DC);
+}
 
 
 /* FOOTER PALETTE DU GOUT */
