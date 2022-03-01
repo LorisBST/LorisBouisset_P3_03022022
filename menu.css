@@ -48,14 +48,31 @@ Body {
 }    
 
 .image-restaurant {
-    width: 120rem;
+    width: 100%;
     height: 30rem;
     object-fit: cover;
 }
 
+.soustitre-menu hr {
+    border: 0;
+    border-top: 0.2rem solid #92e0cd;
+    margin-top: -5%;
+    width: 2rem;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+}
+
+.soustitre-menu h3 {
+    font-weight: lighter;
+}
 
 
-
+main {
+    background-color: #f6f6f6;
+    margin-top: -6%;
+    position: relative;
+    border-radius: 4rem;
+}
 
 section {
     display: grid;
@@ -141,3 +158,25 @@ section {
         margin-bottom: 2rem;
         width: 22rem;
     }
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1150px) {
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+main {
+    margin-top: -10%;
+}
+
+
+
+
+
+
+}
