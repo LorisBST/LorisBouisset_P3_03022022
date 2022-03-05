@@ -142,12 +142,14 @@ section {
     }
 
 
-    .prix-plat {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+
+    .prix-plat span {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 22rem;
+    margin-top: -1rem;
     }
-    
 
     .fiche-plats {
         display: grid;
@@ -157,7 +159,43 @@ section {
         padding: 0.5rem;
         margin-bottom: 2rem;
         width: 22rem;
+        height: 5rem;
     }
+
+    .icone-check {
+      background-color: #99e2d0;
+      display: flex;
+      width: 6.1rem;
+      height: 6.1rem;
+      border-radius: 0rem 1rem 1rem 0rem;
+      margin-right: 4rem;
+      margin: -4.8rem 0rem -1rem 16.5rem;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      text-overflow: clip;
+      animation: 0.5s ease-out checkout;
+      opacity: 0;
+    }
+
+    .icone-check i {
+      font-size: 1.75rem;
+      transition: transform 1s;
+      color: white;
+      }
+
+      .fiche-plats:hover {
+        transition: all 1s ease-out;
+      }
+      
+      .fiche-plats:hover .icone-check {
+        opacity: 1;
+        animation: 0.5s ease-in reverse both icone-check;
+      }
+    
+
+      
+
 
 
 /* RESPONSIVE */
