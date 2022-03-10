@@ -88,6 +88,11 @@ section {
     padding: 3rem 0;
 }
 
+.bouton_commander button:hover {
+  opacity: 70%;   
+  transition-duration: 500ms;
+  cursor: pointer;
+  }
 
 
 .bouton_commander button {
@@ -191,7 +196,7 @@ section {
 
 .prix-plat {
   float: right;
-  margin-top: 65px;
+  margin-top: 3.73rem;
   margin-left: -20px;
   font-weight: bold;
   padding-right: 20px;
@@ -230,6 +235,7 @@ section {
 
 .texte-box {
   width: 100%;
+  margin-left: 0.5rem;
 }
 
 .texte-box p {
