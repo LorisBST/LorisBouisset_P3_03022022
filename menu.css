@@ -351,6 +351,7 @@ section {
   height: fit-content;
 }   
 
+/* PARTIE FADE IN */
 .first_entrance, .second_entrance, .third_entrance {
   animation-name: appearance;
   animation-fill-mode: both;
