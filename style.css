@@ -41,7 +41,7 @@ Body {
     inset: 0;
     z-index: 1;
     animation: disappear 500ms forwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
     opacity: 90%;
     justify-content: center;
     align-items: center;

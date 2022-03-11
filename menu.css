@@ -298,6 +298,7 @@ section {
   animation: 0.5s ease-in reverse both check;
 }
 
+
 @keyframes check {
   0% {
     width: 20%;
@@ -350,7 +351,31 @@ section {
   height: fit-content;
 }   
 
-      
+.first_entrance, .second_entrance, .third_entrance {
+  animation-name: appearance;
+  animation-fill-mode: both;
+  animation-duration: 300ms;
+}
+
+.second_entrance {
+  animation-delay: 700ms;
+}
+
+.third_entrance {
+  animation-delay: 1.3s;
+}
+
+
+
+@keyframes appearance {
+  from {
+      transform: translateX(-9999px);
+  }
+  to {
+      transform: translateX(0px);
+  }
+}
+
 
 
 
@@ -405,4 +430,13 @@ section {
   .fiche-plats {
     width: 100%;
   }
+
+  .fiche-plats h2 {
+    font-size: 1.1rem;
+}
+
+.menu {
+  width: 22rem;
+}
+
 }
