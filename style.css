@@ -103,7 +103,9 @@ to {
 }
 
 .bouton_navigation button:hover {
-opacity: 75%;   
+opacity: 90%;   
+transition-duration: 500ms;
+box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
 }
 
 .bouton_navigation button {
