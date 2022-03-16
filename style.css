@@ -102,7 +102,7 @@ to {
     justify-content: center;  
 }
 
-.bouton_navigation:hover {
+.bouton_navigation button:hover {
 opacity: 75%;   
 }
 
