@@ -283,6 +283,11 @@ footer {
     background-color: #353535;
 }
 
+.footer-text-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
 .footer-text-bottom {    
     display: flex;
     flex-direction: column;
